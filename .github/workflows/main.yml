@@ -10,7 +10,7 @@ jobs:
 
     strategy:
       matrix:
-        service: [App,nginx,DB]
+        service: [app,nginx,db]
 
     env:
       DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
