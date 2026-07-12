@@ -13,3 +13,5 @@ from settings==> secretand variables ==> Actions ==> create  new repo secret as 
 steps : 
 1- prpepare gillab : 
 create Wokflow file on my repo github 
+to be start A runner to create new VM temp as it is is simply a temporary computer that GitHub uses to run your workflow and after push images , the runner is deleted after the jobs finished .
+
