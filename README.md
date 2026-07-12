@@ -30,3 +30,11 @@ and check images on the docker hub :
 
 
 2-prepare Cd" ArgoCD " 
+open app :
+<img width="1641" height="1048" alt="image" src="https://github.com/user-attachments/assets/85bbfcd1-2a9b-465f-b960-58d9df7199e9" />
+
+<img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/6aafb289-e8b4-4cc4-9b5a-93e4a70d1321" />
+and create new application : 
+Add Repo URL Of github : https://github.com/Nadasawah90/Multi-tier-Web-Java-application-Pipline-using-gitlab-Argocd-
+
+
