@@ -1,4 +1,4 @@
-# Multi-tier-Web-Java-application-Pipline-using-gitlab-Argocd-
+# Multi-tier-Web-Java-application-Pipline-using-gitlab-Argocd-"CICD"
 prprequieats :
 
 1- K8S environemnt 
@@ -12,7 +12,8 @@ from settings==> secretand variables ==> Actions ==> create  new repo secret as 
 <img width="1472" height="757" alt="image" src="https://github.com/user-attachments/assets/c36bf9a9-c152-40c0-8643-9eed524a0665" />
 
 steps : 
-1- prpepare gillab : 
-create Wokflow file on my repo github 
+1- prpepare gillab "CI"
+create Wokflow file with main.yml file to be start CI " Action" on my repo github 
 to be start A runner to create new VM temp as it is is simply a temporary computer that GitHub uses to run your workflow and after push images , the runner is deleted after the jobs finished .
 
+2-prepare Cd" ArgoCD " 
