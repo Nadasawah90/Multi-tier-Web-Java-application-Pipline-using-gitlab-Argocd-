@@ -7,7 +7,8 @@ prprequieats :
 Docker hub : 
 -from account seeting ==> Generate new Token 
 Add secrets to Github :
-
+from settings==> secretand variables ==> Actions ==> create  new repo secret as below : 
+<img width="1472" height="757" alt="image" src="https://github.com/user-attachments/assets/c36bf9a9-c152-40c0-8643-9eed524a0665" />
 
 steps : 
 1- prpepare gillab : 
