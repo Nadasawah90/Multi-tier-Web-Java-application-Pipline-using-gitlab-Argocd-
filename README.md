@@ -15,4 +15,7 @@ steps :
 1- prpepare gillab "CI"
 create Wokflow file with main.yml file to be start CI " Action" on my repo github 
 to be start A runner to create new VM temp as it is is simply a temporary computer that GitHub uses to run your workflow and after push images , the runner is deleted after the jobs finished .
+error :
+<img width="1090" height="490" alt="image" src="https://github.com/user-attachments/assets/aac13c67-07ef-4d01-9c28-dcb983ef4c2b" />
+
 2-prepare Cd" ArgoCD " 
