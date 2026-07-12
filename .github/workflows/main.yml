@@ -28,7 +28,7 @@ jobs:
       - name: Build & Push
         uses: docker/build-push-action@v5
         with:
-          context: ./Docker-files/${{ matrix.service }}
+          context: ./Dockerfiles/${{ matrix.service }}
           push: true
           tags: |
             ${{ env.DOCKERHUB_USERNAME }}/vprofile-${{ matrix.service }}:latest
