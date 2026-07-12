@@ -3,7 +3,12 @@ prprequieats :
 1- K8S environemnt 
 2-Argocd app 
 3- Gillab repository ==> upload images in the Docker hub 
-shuld be all ready and up and running 
+4- create Docker hub _username & Docker hub_Token on the github 
+Docker hub : 
+-from account seeting ==> Generate new Token 
+Add secrets to Github :
+
+
 steps : 
 1- prpepare gillab : 
 create Wokflow file on my repo github 
