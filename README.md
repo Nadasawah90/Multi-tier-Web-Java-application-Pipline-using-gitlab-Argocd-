@@ -22,6 +22,11 @@ error :
 and also make all is lower case as the below error appeared also : 
 ERROR: failed to build: invalid tag "***/vprofile-App:latest": repository name must be lowercase
 Error: buildx failed with: ERROR: failed to build: invalid tag "***/vprofile-App:latest": repository name must be lowercase
+after edit all Dockerfiles with small leterr rerun the jobs or commit the branch :
+<img width="1077" height="501" alt="image" src="https://github.com/user-attachments/assets/b6681ac1-6c6c-412e-87ab-b60fa7ac802f" />
+successfully tasks 
+and check images on the docker hub :
+<img width="1455" height="175" alt="image" src="https://github.com/user-attachments/assets/f65585da-baec-42c0-94b2-2debae2e1553" />
 
 
 2-prepare Cd" ArgoCD " 
