@@ -19,6 +19,9 @@ error :
 <img width="1090" height="490" alt="image" src="https://github.com/user-attachments/assets/aac13c67-07ef-4d01-9c28-dcb983ef4c2b" />
 <img width="1875" height="778" alt="image" src="https://github.com/user-attachments/assets/4773ba4b-9859-488c-a1bb-6fecc43ce1e3" />
 <img width="1559" height="900" alt="image" src="https://github.com/user-attachments/assets/7a94b933-22a6-417c-90d0-634e4bd9b8f8" />
+and also make all is lower case as the below error appeared also : 
+ERROR: failed to build: invalid tag "***/vprofile-App:latest": repository name must be lowercase
+Error: buildx failed with: ERROR: failed to build: invalid tag "***/vprofile-App:latest": repository name must be lowercase
 
 
 2-prepare Cd" ArgoCD " 
