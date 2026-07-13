@@ -97,8 +97,6 @@ check :**
 
 <img width="1641" height="1048" alt="image" src="https://github.com/user-attachments/assets/04a3ff2b-3ca5-4b59-ab1a-80596f763b5f" />
 
-<img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/cbb24ca6-42d6-4a7e-a77d-034a48209e3c" />
-
 - check URL  Load balancer node : 
 
 http://192.168.142.159:30612/login
