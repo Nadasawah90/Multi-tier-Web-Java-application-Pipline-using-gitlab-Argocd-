@@ -34,7 +34,7 @@ DOCKERHUB_TOKEN
 <img width="1472" height="757" alt="image" src="https://github.com/user-attachments/assets/c36bf9a9-c152-40c0-8643-9eed524a0665" />
 
 ## Steps : 
-1. Prepare GitHub CI (GitHub Actions)
+## 1. Prepare GitHub CI (GitHub Actions)
 
 Create the workflow file:
 .github/workflows/main.yml
@@ -55,19 +55,26 @@ Errors :
 
 <img width="1875" height="778" alt="image" src="https://github.com/user-attachments/assets/4773ba4b-9859-488c-a1bb-6fecc43ce1e3" />
 
+-i changed the Docker files name  owith  the same on source  code .
+
 <img width="1559" height="900" alt="image" src="https://github.com/user-attachments/assets/7a94b933-22a6-417c-90d0-634e4bd9b8f8" />
 
-and also make all is lower case as the below error appeared also : 
+- And also make all is with the lower case as the below error appeared also : 
+
 ERROR: failed to build: invalid tag "***/vprofile-App:latest": repository name must be lowercase
 Error: buildx failed with: ERROR: failed to build: invalid tag "***/vprofile-App:latest": repository name must be lowercase
-after edit all Dockerfiles with small leterr rerun the jobs or commit the branch :
+
+
+- after edit all Dockerfiles with the small letter and  rerun the jobs or commit the branch , successfully tasks as below :
+
 <img width="1077" height="501" alt="image" src="https://github.com/user-attachments/assets/b6681ac1-6c6c-412e-87ab-b60fa7ac802f" />
-successfully tasks 
-and check images on the docker hub :
+
+
+- and check images on the docker hub :
+
 <img width="1455" height="175" alt="image" src="https://github.com/user-attachments/assets/f65585da-baec-42c0-94b2-2debae2e1553" />
 
-
-2-prepare Cd" ArgoCD " 
+## 2-prepare CD" ArgoCD " 
 open app :
 <img width="1641" height="1048" alt="image" src="https://github.com/user-attachments/assets/85bbfcd1-2a9b-465f-b960-58d9df7199e9" />
 
