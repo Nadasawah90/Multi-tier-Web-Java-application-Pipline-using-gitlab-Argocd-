@@ -109,5 +109,9 @@ http://192.168.142.159:30612/login
 
 <img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/b0973d33-ceae-4b98-a784-d08bc99ea30b" />
 
+## Result
 
+CI (GitHub Actions): Build and push the Docker image to Docker Hub.
+
+CD (Argo CD): Automatically deploy the latest application version to the Kubernetes cluster.
 
