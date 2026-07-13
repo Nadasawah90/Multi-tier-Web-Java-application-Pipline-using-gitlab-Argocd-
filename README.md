@@ -69,32 +69,44 @@ Error: buildx failed with: ERROR: failed to build: invalid tag "***/vprofile-App
 
 <img width="1077" height="501" alt="image" src="https://github.com/user-attachments/assets/b6681ac1-6c6c-412e-87ab-b60fa7ac802f" />
 
-
 - and check images on the docker hub :
 
 <img width="1455" height="175" alt="image" src="https://github.com/user-attachments/assets/f65585da-baec-42c0-94b2-2debae2e1553" />
 
-## 2-prepare CD" ArgoCD " 
-open app :
+## 2-Prepare CD" ArgoCD " :
+
+- open the application : 
+
 <img width="1641" height="1048" alt="image" src="https://github.com/user-attachments/assets/85bbfcd1-2a9b-465f-b960-58d9df7199e9" />
 
 <img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/6aafb289-e8b4-4cc4-9b5a-93e4a70d1321" />
-and create new application : 
+
+-Then create new application : 
+
 Add Repo URL Of github : https://github.com/Nadasawah90/Multi-tier-Web-Java-application-Pipline-using-gitlab-Argocd-
+
 as the below setting : 
+
 <img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/90bfe9b2-b052-472f-9c82-eb88caba4340" />
+
 check :**
+
 <img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/ab5dbd51-1692-4d5e-b96b-88979d07dd76" />
 
-check pods on K8s Master node : 
+- check pods on K8s Master node : 
+
 <img width="1641" height="1048" alt="image" src="https://github.com/user-attachments/assets/c1b4f860-91a6-452d-806e-fc6a96bdec98" />
 
+
 <img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/cbb24ca6-42d6-4a7e-a77d-034a48209e3c" />
+
 <img width="1641" height="1048" alt="image" src="https://github.com/user-attachments/assets/04a3ff2b-3ca5-4b59-ab1a-80596f763b5f" />
 
 
-check URL  Load balancer node : 
+- check URL  Load balancer node : 
+
 http://192.168.142.159:30612/login
+
 <img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/b0973d33-ceae-4b98-a784-d08bc99ea30b" />
 
 
