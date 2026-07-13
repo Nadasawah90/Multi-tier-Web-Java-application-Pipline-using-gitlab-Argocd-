@@ -1,24 +1,62 @@
 # Multi-tier-Web-Java-application-Pipline-using-gitlab-Argocd-"CICD"
-prprequieats :
 
-1- K8S environemnt 
-2-Argocd app 
-3- Gillab repository ==> upload images in the Docker hub 
-4- create Docker hub _username & Docker hub_Token on the github 
-Docker hub : 
--from account seeting ==> Generate new Token 
-Add secrets to Github :
-from settings==> secretand variables ==> Actions ==> create  new repo secret as below : 
+## Prerequisites
+
+Before starting, ensure the following requirements are completed:
+
+1- Kubernetes (K8s) Environment
+
+A working Kubernetes cluster is deployed and accessible.
+
+2- Argo CD
+
+Argo CD is installed and configured in the Kubernetes cluster.
+
+3- GitLab Repository
+
+Store the application source code in the GitLab repository & Build the Docker image and push it to Docker Hub.
+
+4- Genertate  Docker hub _username & Docker hub_Token on the github as the below steps : 
+
+5- Docker Hub
+From Account Settings → Personal Access Tokens → Generate New Token.
+
+6- Add Secrets to GitHub
+
+Go to Settings → Secrets and variables → Actions.
+
+Create the following secrets:
+
+DOCKERHUB_USERNAME
+
+DOCKERHUB_TOKEN
+
 <img width="1472" height="757" alt="image" src="https://github.com/user-attachments/assets/c36bf9a9-c152-40c0-8643-9eed524a0665" />
 
-steps : 
-1- prpepare gillab "CI"
-create Wokflow file with main.yml file to be start CI " Action" on my repo github 
-to be start A runner to create new VM temp as it is is simply a temporary computer that GitHub uses to run your workflow and after push images , the runner is deleted after the jobs finished .
-error :
+## Steps : 
+1. Prepare GitHub CI (GitHub Actions)
+
+Create the workflow file:
+.github/workflows/main.yml
+
+- Commit and push the file to the GitHub repository.
+
+- GitHub Actions will automatically start the CI pipeline.
+
+- GitHub creates a temporary GitHub-hosted runner (VM) to execute the workflow.
+
+- The runner builds the Docker image and pushes it to Docker Hub.
+
+- After the workflow finishes successfully, the temporary runner is automatically deleted.
+
+Errors : 
+
 <img width="1090" height="490" alt="image" src="https://github.com/user-attachments/assets/aac13c67-07ef-4d01-9c28-dcb983ef4c2b" />
+
 <img width="1875" height="778" alt="image" src="https://github.com/user-attachments/assets/4773ba4b-9859-488c-a1bb-6fecc43ce1e3" />
+
 <img width="1559" height="900" alt="image" src="https://github.com/user-attachments/assets/7a94b933-22a6-417c-90d0-634e4bd9b8f8" />
+
 and also make all is lower case as the below error appeared also : 
 ERROR: failed to build: invalid tag "***/vprofile-App:latest": repository name must be lowercase
 Error: buildx failed with: ERROR: failed to build: invalid tag "***/vprofile-App:latest": repository name must be lowercase
